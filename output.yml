@@ -1,0 +1,48 @@
+matchup:
+  id: 1
+  winner-id: 1
+  name:
+    _text: Match One
+  teams:
+    team:
+      id:
+        _text: 1
+      name:
+        _text: Team One
+    team:
+      id:
+        _text: 2
+      name:
+        _text: Team Two
+matchup:
+  id: 2
+  winner-id: 2
+  name:
+    _text: Match Two
+  teams:
+    team:
+      id:
+        _text: 2
+      name:
+        _text: Team Two
+    team:
+      id:
+        _text: 3
+      name:
+        _text: Team Three
+matchup:
+  id: 3
+  winner-id: 1
+  name:
+    _text: Match Three
+  teams:
+    team:
+      id:
+        _text: 1
+      name:
+        _text: Team One
+    team:
+      id:
+        _text: 3
+      name:
+        _text: Team Three
