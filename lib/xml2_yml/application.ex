@@ -23,7 +23,6 @@ defmodule Xml2Yml.Application do
         input_filepath: @input,
         output_filepath: @output,
         desired_tag: :matchup,
-        final_tag: :matchups,
       ]
       |> load_xml()
     end

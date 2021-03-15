@@ -32,6 +32,7 @@ defmodule Xml2Yml.YmlComposer do
   end
 
   def finish(server_id) do
+    IO.inspect :finish
     process_name(server_id)
     |> GenServer.cast(:finish)
   end
